@@ -18,8 +18,8 @@
     </php>
 
     <testsuites>
-        <testsuite name="Project Test Suite">
-            <directory>tests</directory>
+        <testsuite name="security.domain">
+            <directory suffix="Test.php">domain/tests/Security</directory>
         </testsuite>
     </testsuites>
 
